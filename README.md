@@ -161,3 +161,13 @@ docker run -p 8501:8501 --device /dev/video0:/dev/video0 quiz_pose
 
 - En conjunto, este proyecto demuestra cómo combinar **técnicas de visión artificial**, **sincronización concurrente** y **contenedorización** para crear sistemas interactivos y robustos basados en inteligencia artificial aplicada.
 
+---
+### Creditos
+## 🙌 Créditos
+
+Este proyecto hace uso de la tecnología de **MediaPipe Pose Landmarker**, desarrollada por **Google Research** dentro del framework **MediaPipe**.  
+El sistema de detección de puntos de referencia corporales y la segmentación visual están basados en el modelo original disponible en:
+
+🔗 [MediaPipe Studio – Pose Landmarker Demo](https://mediapipe-studio.webapps.google.com/demo/pose_landmarker?hl=es-419)
+
+Se agradece a la comunidad de desarrolladores de **MediaPipe** por proporcionar herramientas abiertas que facilitan la integración de modelos de visión por computadora en aplicaciones interactivas, fomentando el aprendizaje y la experimentación en el campo de la inteligencia artificial aplicada.
