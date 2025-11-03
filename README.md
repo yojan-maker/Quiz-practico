@@ -142,3 +142,22 @@ Ejecutar
 docker build -t quiz_pose .
 docker run -p 8501:8501 --device /dev/video0:/dev/video0 quiz_pose
 ```
+---
+### 📸 Registro fotográfico
+
+![Image](https://github.com/user-attachments/assets/c84a30b4-3801-48cc-970c-ff02b9e0ec76)
+
+![Image](https://github.com/user-attachments/assets/cc38cc58-a815-4ed9-96d8-b954f3c989d4)
+
+
+---
+## 🧩 Conclusión
+
+- La implementación desarrollada integra de forma efectiva **MediaPipe Pose**, **Python** y **Streamlit**, demostrando cómo las herramientas de visión por computadora pueden complementarse con conceptos de **programación concurrente** para lograr una aplicación funcional, eficiente y modular.
+
+- El uso de **MediaPipe** permitió realizar la **detección de puntos de referencia corporales (landmarks)** en tiempo real, posibilitando la identificación precisa de dos posturas humanas básicas: **de pie** y **sentado**. Gracias a la API de MediaPipe, se logró visualizar los puntos clave y las conexiones del esqueleto corporal, lo que brinda una interpretación visual intuitiva del análisis postural.
+
+- Por otra parte, la aplicación de **hilos (threads)** permitió separar las tareas de captura de video y procesamiento de pose, optimizando el rendimiento y evitando bloqueos del flujo principal. - La incorporación de **mutex**, **sección crítica** y **semaforización** garantizó la sincronización adecuada entre los hilos, evitando condiciones de carrera y asegurando la consistencia de los datos compartidos.
+
+- En conjunto, este proyecto demuestra cómo combinar **técnicas de visión artificial**, **sincronización concurrente** y **contenedorización** para crear sistemas interactivos y robustos basados en inteligencia artificial aplicada.
+
